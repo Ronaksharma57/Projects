@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    background-image: url(https://media.istockphoto.com/id/1288385045/photo/snowcapped-k2-peak.jpg?s=612x612&w=0&k=20&c=sfA4jU8kXKZZqQiy0pHlQ4CeDR0DxCxXhtuTDEW81oo=);
+    font-family: 'Heebo', sans-serif;
+    background: url(https://cdn.pixabay.com/photo/2018/02/13/23/41/nature-3151869_1280.jpg) center center/cover no-repeat fixed #ccc;
+}
+
+
+.main{
+    width: 50%;
+    display: inline;
+    float: left;
+}
+.menu{
+    position: absolute;
+    width: 50%;
+    display: inline-block;
+    padding-top: 24px;
+}
+.menu div{
+    position: relative;
+    display: inline-block;
+    padding-left: 70px;
+    color: whitesmoke;
+}
+ .imgs{
+    height: 60px;
+    padding-left:40px;
+    padding-top: 4px;
+
+}
+.form1{
+
+    padding: 20% 0% 0% 40%;
+    align-items: center;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    
+}
+.form1{
+    font-weight: bold;
+
+}
+#fname,#lname{
+    font-style: normal;
+    font-display: initial;
+    border-top:0;
+    border-left:0;
+    border-right:0;
+    width:300px;
+    border-bottom: 2px solid white;
+}
+
+button {
+    position: absolute;
+    font-size: 12px;
+    border-radius: 0;
+    color: green;
+
+
+}
+label{
+    font-size: 20px;
+    color:green;
+}
