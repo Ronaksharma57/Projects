@@ -25,6 +25,7 @@
     width: 25%;
     align-items: center;
     justify-content: start;
+    flex-shrink: 2;
 }
 .left-header img{
     padding-left: 10px;
@@ -34,7 +35,7 @@
     display: flex;
     width: 50%;
     align-items: center;
-    flex-shrink: 5;
+    flex-shrink: 1;
     justify-content: center;
 }
 .center-header input{
@@ -66,6 +67,7 @@
     display: flex;
     align-items: center;
     justify-content: right;
+    flex-shrink: 3;
 
 } .header .right-header i{
     padding-right: 15px;    
