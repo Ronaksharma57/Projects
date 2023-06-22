@@ -5,6 +5,7 @@
 }
 .Youtube{
     display: flex;
+    box-sizing: border-box;
     
 }
 .header{
@@ -13,13 +14,14 @@
     display: flex;
     align-items: center;
     background-color: white;
+    justify-items: center;
 
 }
 .left-header{
     display: flex;
     margin: 10px;
     padding: 10px;
-    width: 100%;
+    width: 25%;
     align-items: center;
     justify-content: start;
 }
@@ -29,7 +31,7 @@
 
 .center-header{
     display: flex;
-    width: 100%;
+    width: 50%;
     align-items: center;
     justify-content: center;
 }
@@ -57,30 +59,23 @@
     width: 50px;
 }
 .right-header{
-    width: 100%;
+    width: 25%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-
-    margin: 10px;
-
-    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 100px;
 }
 .right-header img{
-    border-radius: 100%;
-    height: 30px;
-    width: 30px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
 
 }
-#video{
-    margin-left:320px ;
-}
+
 .side_container{
     display: flex;
-    align-items: center;
-width: 100vw;
-height: 100vh;
-height: auto;
+    width: 100vw;
+    height: auto;
 }
 .side_menu{
     display: flex;
@@ -111,6 +106,7 @@ display: flex;
 justify-content: space-around;
 }
 .right-menu .image01 .h6{
+    width: 30%;
     font-weight: 400;
     display: flex;
     flex-wrap: nowrap;
