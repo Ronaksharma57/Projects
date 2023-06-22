@@ -9,17 +9,18 @@
     
 }
 .header{
+    margin: 0;
     width: 100%;
     height: 60px;
     display: flex;
     align-items: center;
     background-color: white;
     justify-items: center;
+    position: sticky;
 
 }
 .left-header{
     display: flex;
-    margin: 10px;
     padding: 10px;
     width: 25%;
     align-items: center;
@@ -62,8 +63,10 @@
     width: 25%;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    padding-left: 100px;
+    justify-content: right;
+
+} .header .right-header i{
+    padding-right: 15px;    
 }
 .right-header img{
     border-radius: 50%;
@@ -74,8 +77,9 @@
 
 .side_container{
     display: flex;
-    width: 100vw;
+    width: auto;
     height: auto;
+
 }
 .side_menu{
     display: flex;
@@ -93,30 +97,29 @@
  margin-top: 50px;
 }
 .right_menu{
-    height: auto;
+    position: relative;
+    height: auto ;
     padding-top: 20px;
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
+    width: 100%;
     justify-content: space-evenly;
 }
 .right_menu .image01{
-
 display: flex;
-justify-content: space-around;
-}
-.right-menu .image01 .h6{
-    width: 30%;
-    font-weight: 400;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    flex-direction: column;
-    
-
+justify-content: space-evenly;
 }
 p{
+    height: auto;
+    display: flex;
     font-size: small;
+
+}
+.image01 div{
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
 }
 
 
