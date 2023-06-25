@@ -140,6 +140,9 @@ word-wrap: break-word;
 .game{
     position: relative;
 }
+.game img{
+    width: 100vw;
+}
 
 .xbox{
     position: absolute;
