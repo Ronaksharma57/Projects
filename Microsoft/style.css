@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+}
+body{
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+font-weight: 400;
+line-height: 1.5;
+
+}
+.nav-bar{
+    width: 100%;
+    height: 40%;
+display: flex;
+font-size: small;
+background-color: aq;
+}
+.logo{
+    width: 20%;
+    display: grid;
+    align-items: center;
+    justify-content: right;
+    padding-right: 2em;
+}
+
+ul{
+    list-style-type:none;
+}
+.menu-left{
+    align-items: center;
+    width: 40%;
+    display: flex;
+    justify-content: center;  
+    align-items: center;  
+    gap: 2rem;
+}
+
+.menu-right{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 1.5em;
+    width: 38%;
+}
+.decor{
+    text-decoration: none;
+    color: black;
+}
+.menu-right li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fa-user-circle{
+    padding-right:4em;
+}
+.text-microsoft i{
+    padding-left: 10px;
+}
+.main{
+    position: relative;
+    width: 100%;
+}
+.image1{
+    position: absolute;
+    top: 30%;
+    left: 60%;
+
+}
+.learn-more{
+    position: absolute;
+    border: 1px solid black;
+    margin-top: 10px;
+    background-color: #0067B8;
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 4%;
+}
+.Products{
+    margin-top: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+.Products div{
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+.Products2{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    margin-top: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.list{
+    width: 100%;
+    word-wrap: break-word;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    position: relative;
+    word-wrap: break-word;
+    
+}
+.list p{
+    display: grid;
+align-items: flex-start;
+justify-content: center;
+word-wrap: break-word;
+}
+.Products2 .list div a{
+    font-weight: bold;
+    color: #0067B8;
+    text-decoration: none;
+} 
+.Products2 .list div i{
+    color: #0067B8;
+}
+.list-last{
+    margin-top: 30px;
+}
+.game{
+    position: relative;
+}
+
+.xbox{
+    position: absolute;
+    top: 30%;
+    left: 8%;
+}
+.xbox h2{
+    color: white;
+    font-weight: 900;
+    font-size: 50px;
+}
+.xbox p{
+    color: white;
+    word-wrap: break-word;
+}
+.join{
+    margin-top: 10px;
+    color: white;
+    background-color: #0067B8;
+    border: 1px solid #0067B8;
+    border-radius: 5%;
+    position: absolute;
+    padding: 7px;
+    font-weight: 600;
+}
+.business{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom:-10px;
+}
+.Follow{
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 70px;
+}
+.Follow div{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+.back{
+    align-items: center;
+    display: flex;
+    justify-content: right;
+    border-radius: 5%;
+}
+
+.back-top{
+    position: -webkit-sticky; 
+    display: flex;
+    justify-content: right;
+    border: 1px solid #D9D9D9;
+    background-color: #D9D9D9;
+    color: black;
+    font-weight: 600;
+    padding: 10px;
+    margin-right: 20px;
+    align-items: center;
+    gap: 0.5em;
+    text-decoration: none;
+}
+.last-section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #F2F2F2;
+    justify-content: first baseline;
+    text-align: initial;
+}
+.Footer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-left: 5rem;
+    font-size: 15px;    
+}
+.Footer ul li a{
+    text-decoration: none;
+    color: #616161;
+    word-wrap: break-word;
+    font-size: small;
+}
+
+.bg{
+    margin-top: 30px;
+    background-color: #F2F2F2;
+    width: 100%;
+    height: 70px;
+}
+.same{
+  font-weight: 700;
+  padding-bottom: 10px;
+
+}
+.foot{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #F2F2F2;
+}
+.fa-earth-americas{
+  
+justify-content: center;
+align-items: center;
+}
+.india{
+    width: 30%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: small;
+}
+.privacy{
+    width: 20%;
+    font-size: small;
+}
+.lts{
+    width: 50%;
+    display: flex;
+    font-size: small;
+    justify-content: right;
+    gap: 10px;
+}
+.lts div{
+    display: flex;
+    justify-content: right;
+}
+.vgt{
+    width: 100%;
+    height: 20px;
+    background-color: #F2F2F2;
+}
+
+
+
+
+
