@@ -68,6 +68,9 @@ ul{
     position: relative;
     width: 100%;
 }
+.main img{
+    width: 100vw;
+}
 .image1{
     position: absolute;
     top: 30%;
